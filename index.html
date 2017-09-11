@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+<head>
+	<title>HELLO</title>
+	<script src="task.js" defer> </script>
+</head>
+<body>
+	<fieldset>
+	<div id = "form">	
+		<input type="text" placeholder="task name" id ="task-name">
+		<select id ="myDDL">	
+
+		<option value = "pending">Pending</option>
+		<option value = "completed">Completed</option>
+
+		</select>
+		<input type="text" placeholder="add tag" id ="tag-name">
+
+		<button onclick="createNewTask()">SAVE</button>
+		
+	</div>
+	</fieldset>
+	<br>
+	<table id = "myTable" border= "2">
+		<tr id = "tbl-header">
+			<th>Completed</th>
+			<th>&nbsp;Name&nbsp;</th>
+			<th>&nbsp;Tags&nbsp;</th>
+			<th>&nbsp;Status&nbsp;</th>
+			<th>&nbsp;Actions&nbsp;</th>
+		</tr>
+	</table>
+</body>
+</html>
